@@ -1,0 +1,72 @@
+{
+  "tokenCounter": 102,
+  "staff": [
+    {
+      "email": "staff01@laundry.edu",
+      "password": "password123",
+      "uid": "STAFF01",
+      "name": "Counter Staff 01"
+    },
+    {
+      "email": "staff02@laundry.edu",
+      "password": "password123",
+      "uid": "STAFF02",
+      "name": "Counter Staff 02"
+    }
+  ],
+  "students": [
+    {
+      "regNo": "25BCA7621",
+      "name": "Supreth S",
+      "collegeEmail": "supreths79@gmail.com",
+      "hostel": "Block A (Men's)",
+      "room": "424",
+      "phone": "+91 7708246063",
+      "password": "Supreth07"
+    },
+    {
+      "regNo": "25BCA7622",
+      "name": "Surya R",
+      "collegeEmail": "supreth35@gmail.com",
+      "hostel": "Block MH6",
+      "room": "424",
+      "phone": "+91 9123456789",
+      "password": "Iamgood07"
+    }
+  ],
+  "orders": [
+    {
+      "orderId": "2",
+      "studentRegNo": "25BCA7621",
+      "studentName": "Supreth S",
+      "hostelBlock": "Block A (Men's)",
+      "roomNo": "424",
+      "studentPhone": "+91 7708246063",
+      "staffUid": "STAFF01",
+      "clothesDetails": "Shirt: 6, T-Shirt: 5",
+      "totalQuantity": 11,
+      "submissionDateTime": "04-11-2026 15:20",
+      "status": "Delivered",
+      "token": "TK-25BCA7621-101",
+      "handoverOtp": "295333",
+      "ironingRequested": true
+    },
+    {
+      "orderId": "1",
+      "studentRegNo": "25BCA7621",
+      "studentName": "Supreth S",
+      "hostelBlock": "Block A (Men's)",
+      "roomNo": "424",
+      "studentPhone": "+91 7708246063",
+      "staffUid": "STAFF01",
+      "clothesDetails": "Shorts: 3, Jacket: 1, Towel: 1, Others: 1",
+      "totalQuantity": 6,
+      "submissionDateTime": "04-11-2026 15:19",
+      "status": "Ready for Pickup",
+      "token": "TK-25BCA7621-100",
+      "handoverOtp": "814884",
+      "ironingRequested": false
+    }
+  ],
+  "complaints": []
+}

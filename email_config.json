@@ -1,0 +1,8 @@
+{
+  "enabled": true,
+  "smtp_host": "smtp.gmail.com",
+  "smtp_port": 587,
+  "sender_email": "supreth.vit@gmail.com",
+  "sender_password": "vzpl srvm yudk jdah",
+  "use_tls": true
+}
